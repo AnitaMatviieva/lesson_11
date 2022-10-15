@@ -1,0 +1,147 @@
+.wrapper{
+	position: relative;
+	/*
+	overflow: hidden;
+	*/
+	min-height: 100%;
+}
+
+
+.fixed{
+position: fixed;
+width: 100%;
+left: 0;
+top: 0;
+height: 50px;
+background: linear-gradient(0deg, rgba(158, 174, 255, 1) 0%, rgba(255, 198, 249, 1) 100%);
+}
+
+main{
+	padding: 50px;
+}
+
+.reletive__item, .absolute__item, .sticky__item{
+	padding: 15px;
+	color: #fff;
+	text-align: center;
+	font-size: 20px
+}
+
+.reletive, .absolute{
+	margin-bottom: 70px;
+}
+
+.reletive__item--bg-brown {
+	background: #996600;}
+
+.reletive__item--bg-green {
+	background:#006633;
+	position: relative;
+	bottom: 20px;
+	left: 10px;
+}
+
+.reletive__item--bg-violet {
+	background-color: #993399;
+}
+
+
+.absolute__item--bg-orange {
+	background-color: #FF9900;
+}
+
+.absolute__item--bg-blue {
+	background-color: #66CCFF;
+	position: absolute;
+	top: 796px;
+	right: 50px;
+}
+
+.absolute__item--bg-grey {
+	background: #999999;
+}
+
+.absolute__item--bg-blue-two{
+	background-color: #66CCFF;
+	position: absolute;
+	top: 796px;
+}
+
+.sticky__item{
+margin: 20px;
+height: 50px;
+position: sticky;
+}
+
+.sticky__item--bg-dark-white {
+	background-color: #E1D9D1 ;
+	position: sticky;
+	top: 10px;
+}
+
+.sticky__item--bg-red {
+	background-color: #990000;
+	position: sticky;
+		top: 10px;
+}
+
+.sticky__item--bg-yellow {
+	background-color: #FFFF00;
+position: sticky;
+	top: 10px;
+}
+
+.sticky__item--bg-pink {
+	background-color:#FF6699 ;
+	position: sticky;
+		top: 10px;
+}
+
+.sticky__item--bg-deep-cyan {
+	background-color:#006666 ; 
+	position: sticky;
+		top: 10px;
+}
+
+.sticky{
+	margin-bottom: 150px;
+}
+
+.car__image {
+	position: absolute;
+	
+}
+
+.car__image--hood {
+	max-width: 100px;
+	top: 200px;
+	left: 400px;
+}
+
+.car__image--middle {
+	max-width:200px;
+	top: 168px;
+	left: 200px;
+}
+
+.car__image--bumper {
+	max-width: 89px;
+	top: 162px;
+	left: 111px;
+}
+
+.car__image--first-wheel{
+	top: 230px;
+	left: 410px;
+	max-width: 45px;
+}
+
+.car__image--second-wheel{
+top: 230px;
+left: 166px;
+max-width: 53px;
+}
+
+.car:hover{
+padding-left: 800px;
+}
